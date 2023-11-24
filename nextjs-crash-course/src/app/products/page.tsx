@@ -1,12 +1,10 @@
+import Products from '@/components/Products'
 import Link from 'next/link'
 import React from 'react'
 
-const Products = () => {
+const ProductsPage = () => {
   return (
-    <div>
-    <div>Products</div>
-    <Link href='/products/mac'> Go to Mac</Link>
-    </div>
+    <Products />
   )
 }
 
